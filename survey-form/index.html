@@ -10,8 +10,8 @@
         <p id="description">Thank you for taking the time in completing my survey</p>
         <form id="survey-form" >
             <fieldset>
-                <legend>Personal Information</legend>
-                <label for="name" id="name-label"> Nae:
+                <legend class="header">Personal Information</legend>
+                <label for="name" id="name-label"> Name:
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 </label>
                 <label for="email" id="email-label"> Email:
@@ -25,7 +25,7 @@
             
             
             <fieldset>
-                <label for="social-media-use" id="social-media-use-label">Do you use social media everyday?</label>
+                <p class="header">Do you use social media everyday?</p>
                     
                     <label for="yes" class="inline" >
                         <input class="inline" type="radio" id="yes" name="social-media-use" value="yes" required>
@@ -38,7 +38,7 @@
                     </label>
                 
                 
-                <h4>Which social media do you use?</h4>
+                <p class="header">Which social media do you use?</p>
                 <label for="facebook">
                     <input type="checkbox" id="facebook" name="facebook" value="facebook">
                     Facebook
@@ -70,7 +70,7 @@
             
             </fieldset>
             <fieldset>
-                <label for="dropdown" id="dropdown-label"> What is your screen time?
+                <label for="dropdown" id="dropdown-label" class="header"> What is your screen time?
                     <select id="dropdown" name="screentime" required>
                         <option disabled selected value>Select an option</option>
                         <option value="1">Less than 2 hours</option>
@@ -80,7 +80,7 @@
                         <option value="5">More than 7 hours</option>
                     </select>
                 </label>
-                <label for="comments" id="comments-label">Any comments?
+                <label for="comments" id="comments-label" class="header">Any comments?
                     <textarea id="comments" name="comments" placeholder="Enter your comments here" row="3" cols="30"></textarea>
                 </label>
             </fieldset>
