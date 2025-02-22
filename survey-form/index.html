@@ -11,7 +11,7 @@
         <form id="survey-form" >
             <fieldset>
                 <legend>Personal Information</legend>
-                <label for="name" id="name-label"> Name:
+                <label for="name" id="name-label"> Nae:
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 </label>
                 <label for="email" id="email-label"> Email:
@@ -25,21 +25,49 @@
             
             
             <fieldset>
-                <label for="social-media-use" id="social-media-use-label">Do you use social media everyday?
-                    <input type="radio" id="social-media-use" value="No" name="social-media">No</button>
-                    <input type="radio" id="social-media-use" value="Yes" name="social-media">Yes</button>
+                <label for="social-media-use" id="social-media-use-label">Do you use social media everyday?</label>
+                    
+                    <label for="yes" class="inline" >
+                        <input class="inline" type="radio" id="yes" name="social-media-use" value="yes" required>
+                        Yes
+                    </label>
+                    
+                    <label for="no" class="inline" >
+                        <input type="radio" id="no" name="social-media-use" value="no" required class="inline" >
+                        No
+                    </label>
+                
+                
+                <h4>Which social media do you use?</h4>
+                <label for="facebook">
+                    <input type="checkbox" id="facebook" name="facebook" value="facebook">
+                    Facebook
                 </label>
-                <label for="social-media">Which social media do you use?
-                <input type="checkbox" id="social-media" name="social-media" value="facebook">Facebook
-                <input type="checkbox" id="social-media" name="social-media" value="instagram">Instagram
-                <input type="checkbox" id="social-media" name="social-media" value="twitter">Twitter
-                <input type="checkbox" id="social-media" name="social-media" value="snapchat">Snapchat
-                <input type="checkbox" id="social-media" name="social-media" value="tiktok">Tiktok
-                <input type="checkbox" id="social-media" name="social-media" value="linkedin">Linkedin
-                <input type="checkbox" id="social-media" name="social-media" value="pinterest">Pinterest
-                <input type="checkbox" id="social-media" name="social-media" value="youtube">Youtube
-                <input type="checkbox" id="social-media" name="social-media" value="whatsapp">Whatsapp
-            </label>
+                <label for="instagram">
+                    <input type="checkbox" id="instagram" name="instagram" value="instagram">
+                    Instagram
+                </label>
+                <label for="twitter">
+                    <input type="checkbox" id="twitter" name="twitter" value="twitter">
+                    Twitter
+                </label>
+                <label for="snapchat">
+                    <input type="checkbox" id="snapchat" name="snapchat" value="snapchat">
+                    Snapchat
+                </label>
+                <label for="tiktok">
+                    <input type="checkbox" id="tiktok" name="tiktok" value="tiktok">
+                    Tiktok
+                </label>
+                <label for="linkedin">
+                    <input type="checkbox" id="linkedin" name="linkedin" value="linkedin">
+                    Linkedin
+                </label>
+                <label for="pinterest">
+                    <input type="checkbox" id="pinterest" name="pinterest" value="pinterest">
+                    Pinterest
+                </label>
+            
             </fieldset>
             <fieldset>
                 <label for="dropdown" id="dropdown-label"> What is your screen time?
